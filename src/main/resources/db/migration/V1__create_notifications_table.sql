@@ -1,0 +1,7 @@
+CREATE TABLE notifications (
+   notification_id UUID PRIMARY KEY,
+   type VARCHAR(50) NOT NULL,
+   status VARCHAR(50) NOT NULL DEFAULT 'PENDING',
+   payload JSONB,
+   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
