@@ -185,5 +185,3 @@ Steps:
 - The `payload` field is stored as `jsonb` in PostgreSQL.
 - RabbitMQ uses JSON conversion to publish and consume `NotificationCreatedEvent`.
 - If the application port is already in use, set `PORT` before starting the app.
-  
----
